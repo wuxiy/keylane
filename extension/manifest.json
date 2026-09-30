@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Keylane",
+  "version": "0.1.0",
+  "description": "个人固定站点的本地登录入口",
+  "minimum_chrome_version": "138",
+  "permissions": ["storage", "tabs", "scripting", "sidePanel", "userScripts"],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Keylane",
+    "default_popup": "popup.html"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "options_page": "options.html",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

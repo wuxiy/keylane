@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f2f0ea" />
+    <title>Keylane · 交互原型</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <!--
+      THESIS: 常用站点是可直接执行的清单；拒绝把入口藏在卡片详情里。
+      OWN-WORLD: 暖白纸面、石墨字色、细分隔线和只服务主动作的橙色。
+      STORY: 搜索或扫读站点，点击进入，明确看到授权与提交状态。
+      FIRST VIEWPORT: 420px 窄面板，标题与搜索在上，当前页面提示居中，常用清单占主体，管理入口贴底。
+      FORM: 工程调度簿式站点索引，选择自产品需求；seed 5c14a456。
+      FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+    -->
+    <svg class="icon-sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+      <symbol id="i-settings" viewBox="0 0 24 24"><path d="M10 2h4l.6 2.2 1.9.8 2-.9 2.8 2.8-.9 2 .8 1.9L23 11v4l-2.2.6-.8 1.9.9 2-2.8 2.8-2-.9-1.9.8L14 24h-4l-.6-2.2-1.9-.8-2 .9-2.8-2.8.9-2-.8-1.9L1 15v-4l2.2-.6.8-1.9-.9-2L5.9 4l2 .9 1.9-.8L10 2Z" transform="translate(0 -1) scale(.96)"/><circle cx="12" cy="12" r="3"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+      <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 5h12M9 12h12M9 19h12"/><circle cx="4" cy="5" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="19" r="1"/></symbol>
+      <symbol id="i-file" viewBox="0 0 24 24"><path d="M6 2h8l5 5v15H6z"/><path d="M14 2v5h5M9 12h7M9 16h7"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24"><path d="m12 2 10 18H2L12 2Z"/><path d="M12 9v5m0 3v.2"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+      <symbol id="i-key" viewBox="0 0 24 24"><circle cx="7.5" cy="7.5" r="4"/><path d="m10.5 10.5 10 10m-5-5 2-2m.5 5 2-2"/></symbol>
+    </svg>
+
+    <div class="preview">
+      <header class="preview-header">
+        <div class="preview-heading">
+          <h1>Keylane</h1>
+          <p>固定站点的快捷入口与登录规则管理 · 交互原型，仅演示</p>
+        </div>
+        <nav class="preview-switch" aria-label="切换预览界面">
+          <button type="button" data-surface="popup" aria-pressed="true">Popup</button>
+          <button type="button" data-surface="sidepanel" aria-pressed="false">Side Panel</button>
+          <button type="button" data-surface="dashboard" aria-pressed="false">管理页</button>
+        </nav>
+      </header>
+      <main class="preview-stage">
+        <div id="app" class="app-frame" aria-label="Keylane 原型"></div>
+      </main>
+      <p class="preview-note">所有地址和账号均为演示数据。点击“进入”只展示交互状态，不会打开站点或执行登录。</p>
+    </div>
+  </body>
+</html>

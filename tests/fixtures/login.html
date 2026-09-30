@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head><meta charset="UTF-8"/><title>Keylane 本地测试页</title><style>html { color: #17242b; background: #ffffff; }</style></head>
+  <body>
+    <h1>虚构站点登录测试</h1>
+    <form id="login-form"><label>账号<input id="username" name="username" autocomplete="off"/></label><label>密码<input id="password" name="password" type="password" autocomplete="off"/></label><button id="submit" type="submit">登录</button></form>
+    <output id="result" aria-live="polite">尚未提交</output>
+    <script>
+      window.keylaneTest = { inputEvents: 0, changeEvents: 0, submitCount: 0, pageCalls: 0 };
+      document.querySelectorAll("input").forEach((input) => {
+        input.addEventListener("input", () => window.keylaneTest.inputEvents++);
+        input.addEventListener("change", () => window.keylaneTest.changeEvents++);
+      });
+      document.querySelector("form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        window.keylaneTest.submitCount++;
+        document.querySelector("#result").textContent = `已提交 ${window.keylaneTest.submitCount} 次`;
+      });
+      window.login = (username, password) => {
+        window.keylaneTest.pageCalls++;
+        window.keylaneTest.lastPageLogin = { username, password };
+        document.querySelector("#result").textContent = `页面函数已调用 ${window.keylaneTest.pageCalls} 次`;
+      };
+      if (new URLSearchParams(location.search).has("delay")) {
+        document.querySelector("#username").remove();
+        setTimeout(() => {
+          const input = document.createElement("input");
+          input.id = "username";
+          document.querySelector("form label").append(input);
+        }, 2000);
+      }
+      if (new URLSearchParams(location.search).has("missing")) {
+        document.querySelector("#username").remove();
+      }
+      if (new URLSearchParams(location.search).has("rerender")) {
+        document.querySelector("#username").addEventListener("input", () => {
+          const previous = document.querySelector("#password");
+          const replacement = previous.cloneNode();
+          previous.replaceWith(replacement);
+          replacement.addEventListener("input", () => window.keylaneTest.inputEvents++);
+          replacement.addEventListener("change", () => window.keylaneTest.changeEvents++);
+        });
+      }
+    </script>
+  </body>
+</html>

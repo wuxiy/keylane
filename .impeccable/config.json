@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "extension/popup.html"
+        ],
+        "createdAt": "2026-09-29T16:09:25.678Z",
+        "reason": "Agent: Keylane DESIGN.md specifies the paper surface for this extension UI"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "extension/sidepanel.html"
+        ],
+        "createdAt": "2026-09-29T16:09:25.792Z",
+        "reason": "Agent: Keylane DESIGN.md specifies the paper surface for this extension UI"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "extension/options.html"
+        ],
+        "createdAt": "2026-09-29T16:09:25.905Z",
+        "reason": "Agent: Keylane DESIGN.md specifies the paper surface for this extension UI"
+      }
+    ]
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T15:32:59Z",
+  "title": "Design System: Keylane",
+  "extensions": {
+    "colorMeta": {
+      "action-orange": {
+        "role": "primary",
+        "displayName": "操作橙",
+        "canonical": "#e76f41",
+        "tonalRamp": [
+          "oklch(15% 0.17 40)",
+          "oklch(25% 0.17 40)",
+          "oklch(37% 0.17 40)",
+          "oklch(50% 0.17 40)",
+          "oklch(63% 0.17 40)",
+          "oklch(75% 0.17 40)",
+          "oklch(85% 0.17 40)",
+          "oklch(95% 0.17 40)"
+        ]
+      },
+      "action-orange-hover": {
+        "role": "primary",
+        "displayName": "深操作橙",
+        "canonical": "#c7532c",
+        "tonalRamp": [
+          "oklch(15% 0.17 40)",
+          "oklch(25% 0.17 40)",
+          "oklch(37% 0.17 40)",
+          "oklch(50% 0.17 40)",
+          "oklch(63% 0.17 40)",
+          "oklch(75% 0.17 40)",
+          "oklch(85% 0.17 40)",
+          "oklch(95% 0.17 40)"
+        ]
+      },
+      "action-orange-soft": {
+        "role": "primary",
+        "displayName": "柔和操作橙",
+        "canonical": "#f8e4d9",
+        "tonalRamp": [
+          "oklch(15% 0.06 40)",
+          "oklch(25% 0.06 40)",
+          "oklch(37% 0.06 40)",
+          "oklch(50% 0.06 40)",
+          "oklch(63% 0.06 40)",
+          "oklch(75% 0.06 40)",
+          "oklch(85% 0.06 40)",
+          "oklch(95% 0.06 40)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "纸面",
+        "canonical": "#f2f0ea",
+        "tonalRamp": [
+          "oklch(15% 0.012 88)",
+          "oklch(25% 0.012 88)",
+          "oklch(37% 0.012 88)",
+          "oklch(50% 0.012 88)",
+          "oklch(63% 0.012 88)",
+          "oklch(75% 0.012 88)",
+          "oklch(85% 0.012 88)",
+          "oklch(95% 0.012 88)"
+        ]
+      },
+      "paper-light": {
+        "role": "neutral",
+        "displayName": "浅纸面",
+        "canonical": "#fbfaf7",
+        "tonalRamp": [
+          "oklch(15% 0.009 88)",
+          "oklch(25% 0.009 88)",
+          "oklch(37% 0.009 88)",
+          "oklch(50% 0.009 88)",
+          "oklch(63% 0.009 88)",
+          "oklch(75% 0.009 88)",
+          "oklch(85% 0.009 88)",
+          "oklch(95% 0.009 88)"
+        ]
+      },
+      "paper-deep": {
+        "role": "neutral",
+        "displayName": "深纸面",
+        "canonical": "#e9e6de",
+        "tonalRamp": [
+          "oklch(15% 0.014 88)",
+          "oklch(25% 0.014 88)",
+          "oklch(37% 0.014 88)",
+          "oklch(50% 0.014 88)",
+          "oklch(63% 0.014 88)",
+          "oklch(75% 0.014 88)",
+          "oklch(85% 0.014 88)",
+          "oklch(95% 0.014 88)"
+        ]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "石墨",
+        "canonical": "#17242b",
+        "tonalRamp": [
+          "oklch(15% 0.027 230)",
+          "oklch(25% 0.027 230)",
+          "oklch(37% 0.027 230)",
+          "oklch(50% 0.027 230)",
+          "oklch(63% 0.027 230)",
+          "oklch(75% 0.027 230)",
+          "oklch(85% 0.027 230)",
+          "oklch(95% 0.027 230)"
+        ]
+      },
+      "secondary-ink": {
+        "role": "neutral",
+        "displayName": "次级石墨",
+        "canonical": "#59636a",
+        "tonalRamp": [
+          "oklch(15% 0.019 230)",
+          "oklch(25% 0.019 230)",
+          "oklch(37% 0.019 230)",
+          "oklch(50% 0.019 230)",
+          "oklch(63% 0.019 230)",
+          "oklch(75% 0.019 230)",
+          "oklch(85% 0.019 230)",
+          "oklch(95% 0.019 230)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "分隔线",
+        "canonical": "#c8c9c4",
+        "tonalRamp": [
+          "oklch(15% 0.009 140)",
+          "oklch(25% 0.009 140)",
+          "oklch(37% 0.009 140)",
+          "oklch(50% 0.009 140)",
+          "oklch(63% 0.009 140)",
+          "oklch(75% 0.009 140)",
+          "oklch(85% 0.009 140)",
+          "oklch(95% 0.009 140)"
+        ]
+      },
+      "success": {
+        "role": "status",
+        "displayName": "完成绿",
+        "canonical": "#246650",
+        "tonalRamp": [
+          "oklch(15% 0.09 165)",
+          "oklch(25% 0.09 165)",
+          "oklch(37% 0.09 165)",
+          "oklch(50% 0.09 165)",
+          "oklch(63% 0.09 165)",
+          "oklch(75% 0.09 165)",
+          "oklch(85% 0.09 165)",
+          "oklch(95% 0.09 165)"
+        ]
+      },
+      "warning": {
+        "role": "status",
+        "displayName": "警示褐",
+        "canonical": "#a34222",
+        "tonalRamp": [
+          "oklch(15% 0.13 40)",
+          "oklch(25% 0.13 40)",
+          "oklch(37% 0.13 40)",
+          "oklch(50% 0.13 40)",
+          "oklch(63% 0.13 40)",
+          "oklch(75% 0.13 40)",
+          "oklch(85% 0.13 40)",
+          "oklch(95% 0.13 40)"
+        ]
+      },
+      "focus": {
+        "role": "status",
+        "displayName": "焦点蓝",
+        "canonical": "#135b7a",
+        "tonalRamp": [
+          "oklch(15% 0.1 230)",
+          "oklch(25% 0.1 230)",
+          "oklch(37% 0.1 230)",
+          "oklch(50% 0.1 230)",
+          "oklch(63% 0.1 230)",
+          "oklch(75% 0.1 230)",
+          "oklch(85% 0.1 230)",
+          "oklch(95% 0.1 230)"
+        ]
+      },
+      "nav-active-paper": {
+        "role": "primary",
+        "displayName": "导航选中纸面",
+        "canonical": "#f8e9df",
+        "tonalRamp": [
+          "oklch(15% 0.06 40)",
+          "oklch(25% 0.06 40)",
+          "oklch(37% 0.06 40)",
+          "oklch(50% 0.06 40)",
+          "oklch(63% 0.06 40)",
+          "oklch(75% 0.06 40)",
+          "oklch(85% 0.06 40)",
+          "oklch(95% 0.06 40)"
+        ]
+      },
+      "nav-active-ink": {
+        "role": "primary",
+        "displayName": "导航选中文字",
+        "canonical": "#9b3b1e",
+        "tonalRamp": [
+          "oklch(15% 0.06 40)",
+          "oklch(25% 0.06 40)",
+          "oklch(37% 0.06 40)",
+          "oklch(50% 0.06 40)",
+          "oklch(63% 0.06 40)",
+          "oklch(75% 0.06 40)",
+          "oklch(85% 0.06 40)",
+          "oklch(95% 0.06 40)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "纯白",
+        "canonical": "#ffffff"
+      },
+      "selection-peach": {
+        "role": "primary",
+        "displayName": "文本选区桃色",
+        "canonical": "#f3b696"
+      },
+      "input-border": {
+        "role": "neutral",
+        "displayName": "搜索输入边线",
+        "canonical": "#aeb5b5"
+      },
+      "input-border-hover": {
+        "role": "neutral",
+        "displayName": "当前页悬停边线",
+        "canonical": "#89948f"
+      },
+      "keycap-border": {
+        "role": "neutral",
+        "displayName": "键盘提示边线",
+        "canonical": "#d4d5d0"
+      },
+      "inspector-field-border": {
+        "role": "neutral",
+        "displayName": "检查器字段边线",
+        "canonical": "#b9c0bd"
+      },
+      "quiet-border-hover": {
+        "role": "neutral",
+        "displayName": "次级动作悬停边线",
+        "canonical": "#a4aca8"
+      },
+      "row-hover": {
+        "role": "neutral",
+        "displayName": "站点行悬停覆层",
+        "canonical": "rgba(255,255,255,.48)"
+      },
+      "warning-border": {
+        "role": "status",
+        "displayName": "警示提示边线",
+        "canonical": "#d29d83"
+      },
+      "success-border": {
+        "role": "status",
+        "displayName": "完成提示边线",
+        "canonical": "#89a89b"
+      },
+      "danger-hover": {
+        "role": "status",
+        "displayName": "删除动作悬停色",
+        "canonical": "#812e15"
+      },
+      "preview-canvas": {
+        "role": "neutral",
+        "displayName": "评审页背景",
+        "canonical": "#e2e4e0"
+      },
+      "preview-header": {
+        "role": "neutral",
+        "displayName": "评审页标题栏",
+        "canonical": "#222d32"
+      },
+      "preview-control-border": {
+        "role": "neutral",
+        "displayName": "评审切换器边线",
+        "canonical": "#69767a"
+      },
+      "preview-control-ink": {
+        "role": "neutral",
+        "displayName": "评审切换器文字",
+        "canonical": "#d6dfdc"
+      },
+      "preview-control-hover": {
+        "role": "neutral",
+        "displayName": "评审切换器悬停",
+        "canonical": "#3e4c50"
+      },
+      "preview-stage-start": {
+        "role": "neutral",
+        "displayName": "评审舞台渐变起色",
+        "canonical": "#dcded9"
+      },
+      "preview-note-ink": {
+        "role": "neutral",
+        "displayName": "评审提示文字",
+        "canonical": "#435056"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "品牌字",
+        "purpose": "仅用于 Keylane 字标。"
+      },
+      "headline": {
+        "displayName": "管理页标题",
+        "purpose": "管理页的主标题。"
+      },
+      "title": {
+        "displayName": "区段标题",
+        "purpose": "窄面板的列表区段。"
+      },
+      "body": {
+        "displayName": "正文",
+        "purpose": "按钮、列表与短说明。"
+      },
+      "metadata": {
+        "displayName": "元数据",
+        "purpose": "域名、行号和配置摘要。"
+      },
+      "footnote": {
+        "displayName": "窄面板页脚",
+        "purpose": "10px 的紧凑页脚。"
+      },
+      "compact": {
+        "displayName": "辅助说明",
+        "purpose": "12px 的次级说明。"
+      },
+      "row-title": {
+        "displayName": "站点名称",
+        "purpose": "14px 的站点行标题。"
+      },
+      "subsection": {
+        "displayName": "管理子标题",
+        "purpose": "15px 的管理区子标题。"
+      },
+      "inspector-title": {
+        "displayName": "检查器标题",
+        "purpose": "18px 的检查器标题。"
+      },
+      "compact-brand": {
+        "displayName": "紧凑品牌字",
+        "purpose": "22px 的管理导航品牌字。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "preview-frame",
+        "value": "0 18px 54px rgba(18, 31, 36, .17)",
+        "purpose": "只用于评审页中托起原型容器。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "action-transition",
+        "value": "160ms ease-out",
+        "purpose": "主动作悬停与按下状态。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "dashboard-stacked-inspector",
+        "value": "900px"
+      },
+      {
+        "name": "single-column-preview",
+        "value": "650px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "主要动作",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "进入或保存演示配置时使用的橙色动作。",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">进入</button>",
+      "css": ".ds-btn-primary{min-width:66px;height:34px;padding:0 10px;border:1px solid var(--accent, #e76f41);border-radius:7px;background:var(--accent, #e76f41);color:#fff;font:750 13px sans-serif;transition:background 160ms ease-out,transform 160ms ease-out}.ds-btn-primary:hover{background:var(--accent-hover, #c7532c);border-color:var(--accent-hover, #c7532c)}.ds-btn-primary:focus-visible{outline:3px solid var(--focus, #135b7a);outline-offset:2px;}.ds-btn-primary:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "授权动作",
+      "kind": "button",
+      "refersTo": "button-authorization",
+      "description": "站点尚未授权时替代进入动作。",
+      "html": "<button class=\"ds-btn-authorization\" type=\"button\">授权</button>",
+      "css": ".ds-btn-authorization{min-width:66px;height:34px;padding:0 10px;border:1px solid var(--accent, #e76f41);border-radius:7px;background:transparent;color:#a83d1d;font:750 13px sans-serif;transition:background 160ms ease-out}.ds-btn-authorization:hover{background:var(--accent-hover, #c7532c);color:#fff}.ds-btn-authorization:focus-visible{outline:3px solid var(--focus, #135b7a);outline-offset:2px;}"
+    },
+    {
+      "name": "安静动作",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "次级操作与迁移预览使用的浅纸面按钮。",
+      "html": "<button class=\"ds-btn-quiet\" type=\"button\">查看导入预览</button>",
+      "css": ".ds-btn-quiet{height:34px;padding:0 10px;border:1px solid var(--line, #c8c9c4);border-radius:7px;background:var(--paper-light, #fbfaf7);color:var(--ink, #17242b);font:750 13px sans-serif}.ds-btn-quiet:hover{background:var(--paper-deep, #e9e6de)}.ds-btn-quiet:focus-visible{outline:3px solid var(--focus, #135b7a);outline-offset:2px;}"
+    },
+    {
+      "name": "站点搜索",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "窄面板和管理页共用的站点名称或域名搜索。",
+      "html": "<label class=\"ds-search\"><svg class=\"ds-search-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"10.8\" cy=\"10.8\" r=\"6.7\"/><path d=\"m16 16 5 5\"/></svg><input class=\"ds-search-input\" type=\"search\" aria-label=\"搜索站点\" placeholder=\"搜索站点名称或域名\"><span class=\"ds-keycap\" aria-hidden=\"true\">⌘ K</span></label>",
+      "css": ".ds-search{position:relative;display:flex;align-items:center;width:100%;max-width:376px}.ds-search-icon{position:absolute;left:13px;width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;color:var(--muted, #59636a);pointer-events:none}.ds-search-input{width:100%;height:44px;padding:0 64px 0 42px;border:1px solid #aeb5b5;border-radius:9px;background:var(--paper-light, #fbfaf7);color:var(--ink, #17242b);font:14px sans-serif}.ds-search-input:focus-visible{outline:3px solid var(--focus, #135b7a);outline-offset:2px;}.ds-keycap{position:absolute;right:10px;padding:3px 5px;border:1px solid #d4d5d0;border-radius:5px;color:#596168;font:11px monospace}"
+    },
+    {
+      "name": "站点行",
+      "kind": "custom",
+      "refersTo": "site-row",
+      "description": "行号、站点、凭据方式和动作形成固定扫描顺序。",
+      "html": "<div class=\"ds-site-row\"><span class=\"ds-site-number\">01</span><span class=\"ds-site-copy\"><strong>NAS 文件中心</strong><small>nas.example</small></span><span class=\"ds-site-method\">固定密码</span><button class=\"ds-site-action\" type=\"button\">进入</button></div>",
+      "css": ".ds-site-row{display:grid;grid-template-columns:27px minmax(0,1fr) 68px auto;gap:8px;align-items:center;min-height:71px;border-top:1px solid var(--line, #c8c9c4);border-bottom:1px solid var(--line, #c8c9c4);background:var(--paper, #f2f0ea);color:var(--ink, #17242b)}.ds-site-row:hover{background:rgba(255,255,255,.48)}.ds-site-number,.ds-site-copy small{color:var(--muted, #59636a);font:11px monospace}.ds-site-copy{min-width:0}.ds-site-copy strong,.ds-site-copy small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ds-site-copy strong{font:750 14px sans-serif}.ds-site-method{color:var(--muted, #59636a);font:650 11px sans-serif;text-align:center;white-space:nowrap}.ds-site-action{height:34px;min-width:66px;padding:0 10px;border:1px solid var(--accent, #e76f41);border-radius:7px;background:var(--accent, #e76f41);color:white;font:750 13px sans-serif}.ds-site-action:hover{background:var(--accent-hover, #c7532c)}.ds-site-action:focus-visible{outline:3px solid var(--focus, #135b7a);outline-offset:2px;}"
+    },
+    {
+      "name": "当前页匹配",
+      "kind": "custom",
+      "refersTo": "current-page",
+      "description": "搜索下方的当前页面匹配提示。",
+      "html": "<button class=\"ds-current-page\" type=\"button\"><strong>当前页面</strong><span>nas.example</span><em>已匹配</em></button>",
+      "css": ".ds-current-page{display:flex;align-items:center;gap:9px;width:100%;max-width:376px;padding:11px 12px;border:1px solid var(--line, #c8c9c4);border-radius:9px;background:var(--paper-light, #fbfaf7);color:var(--ink, #17242b);text-align:left;font:12px sans-serif}.ds-current-page:hover{border-color:#89948f}.ds-current-page:focus-visible{outline:3px solid var(--focus, #135b7a);outline-offset:2px;}.ds-current-page strong{font-weight:700}.ds-current-page span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted, #59636a)}.ds-current-page em{margin-left:auto;color:var(--success, #246650);font-style:normal;font-weight:700;white-space:nowrap}"
+    },
+    {
+      "name": "管理导航",
+      "kind": "nav",
+      "refersTo": "nav-item-active",
+      "description": "管理页的选中导航项。",
+      "html": "<nav aria-label=\"管理导航\"><button class=\"ds-nav-item\" type=\"button\" aria-current=\"page\">全部站点</button></nav>",
+      "css": ".ds-nav-item{display:flex;align-items:center;width:100%;padding:10px 12px;border:0;border-radius:7px;background:var(--paper-deep, #e9e6de);color:var(--ink, #17242b);text-align:left;font:650 13px sans-serif}.ds-nav-item:hover{background:#f6f4ee}.ds-nav-item[aria-current=\"page\"]{background:#f8e9df;color:#9b3b1e}.ds-nav-item:focus-visible{outline:3px solid var(--focus, #135b7a);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "工程调度簿",
+    "overview": "Keylane 的静态原型把固定站点呈现为可扫读的操作清单：纸面底色、石墨文字、细分隔线、行号，以及独立的凭据方式和动作列。操作密度服务于快速找到站点，橙色只强调主要动作。Popup、Side Panel 和管理页共享这套语言。\n\n目前只有 `prototype/` 中的浏览器内交互演示。它使用虚构数据和页面内存状态；Chrome 扩展、站点访问、凭据持久化和真实登录均尚未实现。原型外层的深色标题栏及界面切换器只用于评审，不属于扩展界面。",
+    "keyCharacteristics": [
+      "站点列表以行号、域名和细分隔线建立稳定扫描节奏。",
+      "操作橙色集中在“进入”等主动作；权限缺失使用描边“授权”。",
+      "窄面板先给出搜索、当前页匹配和常用站点，详细规则留在管理页。"
+    ],
+    "rules": [
+      {
+        "name": "The Action Color Rule",
+        "body": "保持橙色主动作稀少且明确；权限缺失用描边动作和文字说明表达，不能仅凭颜色区分。",
+        "section": "colors"
+      },
+      {
+        "name": "The Scan Line Rule",
+        "body": "站点名称优先可读，域名与凭据方式退一级；窄面板长文本截断，不挤占动作列。",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper Layer Rule",
+        "body": "列表保持平面结构；用分隔线和背景色区分信息层级，不用逐行悬浮卡片。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** 保持站点名称、域名、凭据方式和下一步动作在窄面板同一行中可扫读。",
+      "**Do** 用“进入”和“授权”两种明确动作区分可操作与待授权状态。",
+      "**Do** 将搜索、结果和规则编辑沿用同一纸面、石墨、分隔线语言。"
+    ],
+    "donts": [
+      "**Don't** 将原型评审页的深色标题栏当作扩展界面的一部分。",
+      "**Don't** 把“已提交”写成“登录成功”，也不要把演示反馈写成真实执行结果。",
+      "**Don't** 以一组独立卡片替换当前站点行清单；它会削弱快速扫读的主任务。"
+    ]
+  }
+}
